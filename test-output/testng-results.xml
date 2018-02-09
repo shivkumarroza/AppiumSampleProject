@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="54175" started-at="2018-02-08T07:02:35Z" finished-at="2018-02-08T07:03:29Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="54175" started-at="2018-02-08T07:02:35Z" finished-at="2018-02-08T07:03:29Z">
+      <class name="script.AppTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:script.AppTest@17d677df]" name="launchApplication" is-config="true" duration-ms="35127" started-at="2018-02-08T12:32:35Z" finished-at="2018-02-08T12:33:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="testLogin()[pri:0, instance:script.AppTest@17d677df]" name="testLogin" duration-ms="17778" started-at="2018-02-08T12:33:10Z" finished-at="2018-02-08T12:33:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method status="PASS" signature="closeApplication(org.testng.ITestResult)[pri:0, instance:script.AppTest@17d677df]" name="closeApplication" is-config="true" duration-ms="1243" started-at="2018-02-08T12:33:28Z" finished-at="2018-02-08T12:33:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLogin status=SUCCESS method=AppTest.testLogin()[pri:0, instance:script.AppTest@17d677df] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- script.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
